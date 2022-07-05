@@ -17,3 +17,4 @@ function randomNumber(min, max){
 createStars(1, 100);
 createStars(2, 85);
 createStars(3, 70);
+
