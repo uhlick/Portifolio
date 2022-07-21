@@ -14,7 +14,9 @@
 }
 
 body {
-    background: var(--primary);
+    background-image: url("img/sky.jpg");  
+    background-repeat: no-repeat;
+    background-size: 100%;
     overflow-x: hidden;
     min-height: 100vh;
 }
@@ -128,11 +130,11 @@ section #text span {
 .sec {
     text-align: center;
     position: relative;
-    padding: px;
+    padding: 0px;
     background: var(--primary);
 }
 
-.sec h2 {
+.sec h4 {
     font-size: 3.5em;
     color: #fff;
     margin-bottom: 10px;
