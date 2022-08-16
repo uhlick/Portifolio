@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-h2{
-  color: white;
-}
-
 :root {
   --theme-bg-color: rgba(16 18 27 / 40%);
   --border-color: rgba(113 119 144 / 25%);
@@ -52,7 +48,6 @@ body {
   background-image: url(/img/backgrounds.png);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -545,7 +540,7 @@ body.light-mode .video-bg:before {
 .content-section ul {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 50%;
   height: 100%;
   justify-content: space-around;
   background-color: var(--content-bg);
