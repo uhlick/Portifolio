@@ -45,7 +45,7 @@ html {
 
 body {
   font-family: var(--body-font);
-  background-image: url(/img/backgrounds.png);
+  background-image: url(/img/gg.webp);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -441,7 +441,7 @@ body.light-mode .video-bg:before {
   align-items: center;
   width: 100%;
   justify-content: space-between;
-  background-image: url("https://www.transparenttextures.com/patterns/cubes.png"), linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc, #fd31a2, #ff3a8b, #ff4b78, #ff5e68, #ff705c, #ff8c51, #ffaa49, #ffc848, #ffe652);
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png"), linear-gradient(to right top, #4a7ff3, #4a9df3, #4aa5f3, #4a9df3, #4a9df3, #4a9df3, #4ac6f3, #4ac6f3, #4adcf3, #4a9df3, #52c7ff);
   border-radius: 14px;
   padding: 20px 40px;
 }
