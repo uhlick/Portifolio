@@ -25,3 +25,8 @@ h2 {
 	min-width: 100%;
 	min-height: 100%;
   }
+
+  .ferumbras {
+	margin-right: 50px;
+	max-width: 120px;
+  }

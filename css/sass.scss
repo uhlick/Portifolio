@@ -46,7 +46,7 @@ html {
 
 body {
  font-family: var(--body-font);
- background-image: url(/img/gg.webp);
+ background-image: url(/img/backgroundart.jpg);
  background-size: cover;
  background-position: center;
  display: flex;
@@ -415,21 +415,11 @@ body.light-mode .video-bg:before {
   display: flex;
   align-items: center;
   width: 100%;
-  justify-content: space-between;
-  background-image: url("https://www.transparenttextures.com/patterns/cubes.png"),
+  flex-direction: column;
+  background-image: url("/img/Dark_Parquet.png"),
    linear-gradient(
     to right top,
-    #4a7ff3,
-    #4a9df3,
-    #4aa5f3,
-    #4a9df3,
-    #4a9df3,
-    #4a9df3,
-    #4ac6f3,
-    #4ac6f3,
-    #4adcf3,
-    #4a9df3,
-    #52c7ff
+    #8b1010, #8b1010, #4d1010, #4d1010, #4d1010, #4d1010, #8b1010, #8b1010, #4d1010, #4d1010
    );
   border-radius: 14px;
   padding: 20px 40px;
@@ -465,6 +455,7 @@ body.light-mode .video-bg:before {
  font-weight: 500;
  font-size: 17px;
  display: flex;
+ justify-content: center;
  align-items: center;
  margin: 0;
  svg {
@@ -480,15 +471,23 @@ body.light-mode .video-bg:before {
  line-height: 1.7em;
  color: #ebecec;
  display: -webkit-box;
- -webkit-line-clamp: 4;
  -webkit-box-orient: vertical;
  overflow: hidden;
  text-overflow: ellipsis;
 }
 
 .content-wrapper-context {
- max-width: 350px;
+ max-width: 669px;
+ display: flex;
 }
+
+@media screen and (max-width: 600px) {
+
+  .content-wrapper-context {
+    flex-direction: column;
+    max-width: 669px;
+   }
+ }
 
 .content-button {
  background-color: #3a6df0;
