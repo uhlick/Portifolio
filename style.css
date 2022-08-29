@@ -6,7 +6,7 @@ html, body, .container{
 
   }
 .icon {
-
+	width: 25px;
 	margin-right: 7px;
 }
 
@@ -14,7 +14,9 @@ html, body, .container{
 	width: 20%;
 	margin-right: 10px;
 }
-
+.letter {
+	display: flex;
+}
 h2 {
 	color: white;
 }
@@ -27,6 +29,7 @@ h2 {
   }
 
   .ferumbras {
+	width: 200px;
 	margin-right: 50px;
 	max-width: 120px;
   }
@@ -77,16 +80,16 @@ h2 {
 	align-items: flex-start;
 	display: flex;
 	justify-content: center;
-	padding: var(--spacing-m) var(--spacing-l);
+	margin-top: 1rem;
   }
   
   .card-grid{
 	display: grid;
-	grid-template-columns: repeat(1, 1fr);
+	grid-template-columns: repeat(2, 1fr);
 	grid-column-gap: var(--spacing-l);
 	grid-row-gap: var(--spacing-l);
 	max-width: var(--width-container);
-	width: 60%;
+	width: 100%;
   }
   
   @media(min-width: 540px){
